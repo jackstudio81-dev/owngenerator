@@ -1,0 +1,16 @@
+{
+  "name": "voice-prompt-generator",
+  "version": "1.0.0",
+  "description": "Aplikasi Voice Over dan Prompt Generator",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.2.0",
+    "@google-cloud/storage": "^7.0.0",
+    "@vercel/node": "^2.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
